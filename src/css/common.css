@@ -26,3 +26,46 @@ button {
   background-color: #1603802a;
   font-size: 30px;
 }
+
+#datetime-picker {
+  border-style: double;
+  height: 50px;
+  font-size: 30px;
+}
+
+input {
+  border-radius: 4px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timer {
+  padding: 8px;
+  display: flex;
+  margin-top: 30px;
+  background-color: rgb(144, 80, 208);
+  justify-content: center;
+}
+
+.field {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: rgba(178, 143, 213, 0.512);
+  border-radius: 10px;
+  border-style: groove;
+  padding: 8px;
+}
+
+.value {
+  color: #212121;
+  font-size: 50px;
+}
+
+.label {
+  color: rgb(238, 247, 243);
+}
